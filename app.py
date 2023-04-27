@@ -6,7 +6,7 @@ CORS(app)
 
 @app.route('/')
 def helloworld():
-    return 'Bienvenido'
+    return 'Bienvenido a todos'
 
 @app.route('/predict')
 def predict():
