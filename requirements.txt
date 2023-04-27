@@ -1,8 +1,10 @@
+-f https://download.pytorch.org/whl/torch_stable.html
+torch==1.8.1+cpu 
 Flask
 flask-cors
 gunicorn
 numpy
 Pillow
-https://download.pytorch.org/whl/cpu/torch-1.9.1%2Bcpu-cp39-cp39-linux_x86_64.whl
+
 
 
