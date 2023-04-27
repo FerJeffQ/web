@@ -16,7 +16,7 @@ def hello_world():
 @app.route("/predict", methods=['POST'])
 def predict():
 
-    # load image
+    # load image    
     img = Image.open(request.files['file'].stream).convert(
         'RGB').resize((224, 224))
     img = np.array(img)
