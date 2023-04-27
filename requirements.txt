@@ -3,5 +3,6 @@ flask-cors
 gunicorn
 numpy
 Pillow
-torch==1.10.0+cpu -f https://download.pytorch.org/whl/cu111/torch_stable.html
+torch==1.9.1+cpu -f https://download.pytorch.org/whl/cu111/torch_stable.html
+
 
