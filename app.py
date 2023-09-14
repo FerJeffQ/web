@@ -11,12 +11,12 @@ model = torch.jit.load('model.zip')
 
 @app.route('/')
 def hello_world():
-    return 'Hello, World!'
+    return 'Hello World'
 
 @app.route("/predict", methods=['POST'])
 def predict():
 
-    # load image    
+    # load image   
     img = Image.open(request.files['file'].stream).convert(
         'RGB').resize((224, 224))
     img = np.array(img)
